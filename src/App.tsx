@@ -13,7 +13,7 @@ const App = () => {
               {el?.title}
             </div>
             <div>
-              <img src={pic} alt={el?.picture} className="w-full h-[100px]" />
+              <img src={el?.picture} alt="" className="w-full h-[100px]" />
             </div>
             <div>{el?.descriptions}</div>
           </div>
